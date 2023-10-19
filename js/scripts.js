@@ -27,9 +27,8 @@ function changeCustomColor() {
 // function to change bg color from random no.
 function changeRandomColor() {
     const randomValue = Math.floor(Math.random() * 100) + 1;
-    customNumberInput.value = randomValue; ]
-    changeCustomColor(); 
-}
+    customNumberInput.value = randomValue; 
+    changeCustomColor(); }
 
 // function to generate options for select list
 function addList() {

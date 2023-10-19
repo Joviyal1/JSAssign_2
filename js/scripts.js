@@ -1,5 +1,5 @@
 // constants for query selector
-const myStudentId = "200536540"; // Replace with your student ID
+const myStudentId = "200536540"; 
 const customNumberInput = document.getElementById("customNumber");
 const customColorButton = document.querySelector(".custColor");
 const randomColorButton = document.querySelector(".randColor");

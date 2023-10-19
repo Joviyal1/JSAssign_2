@@ -34,7 +34,7 @@ function changeRandomColor() {
 function addList() {
     // Tip: you might have to check length condition so that the list does not keep growing when clicked
     // Tip: use createElement and appendChild inside every for loop to add elements to select list from array 
-    const imgNames = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"]; // Replace with your image names
+    const imgNames = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"]; 
     for (let i = 0; i < imgNames.length; i++) {
         const option = document.createElement("option");
         option.value = imgNames[i];
